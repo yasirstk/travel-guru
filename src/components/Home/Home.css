@@ -1,0 +1,10 @@
+.logo{
+    widows: 50px;
+    height: 50px;
+}
+.nav li{
+    display: inline;
+    margin-left:50px;
+    color: white;
+    
+}

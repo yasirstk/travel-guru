@@ -1,0 +1,17 @@
+.login {
+    width:40%;
+    margin: auto;
+    /* margin-top:130px;
+    margin-left:435px; */
+    padding:2rem 0 ;
+    border:1px solid gray;
+    background-color: rgb(184, 214, 214);
+    
+
+}
+.login button {
+    margin-top: 10px;
+}
+.login input {
+    margin-top: 10px;
+}
