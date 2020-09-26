@@ -9,6 +9,7 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import { HotelData } from "./fakedata/FavHotels";
 import Header from "./components/Header/Header";
 import Hotels from "./components/Hotels/Hotels";
+import NotFound from "./components/NotFound";
 
 
 export const UserContext = createContext();
@@ -45,7 +46,7 @@ function App() {
             <Home />
           </Route>
           <Route path="*">
-            <Home/>
+            <NotFound/>
           </Route> 
         </Switch>
       </Router>

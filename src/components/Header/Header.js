@@ -6,7 +6,9 @@ import logo from "./Logo.png";
 
 
 const Header = () => {
-  const [loggedInUser, setLoggedInUser] = useState({});
+ //const [loggedInUser, setLoggedInUser] = useState({});
+ const {user, setUser} = useContext(UserContext);
+ 
   
   return (
     <div>
@@ -31,7 +33,7 @@ const Header = () => {
             <button style={{ marginLeft: "10px" }} className="btn btn-primary">
               Search
             </button>
-            <button style={{ marginLeft: "10px" }}>User: {loggedInUser.name} email: {loggedInUser.email}</button>
+            <span style={{ marginLeft: "10px", color: "blue" }}> email: {user.email}</span>
           </li>
             
           <li>
